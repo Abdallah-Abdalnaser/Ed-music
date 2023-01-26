@@ -50,27 +50,6 @@ body {
   }
 }
 
-.load {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background:radial-gradient(var(--white),var(--gray));
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.load div {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color:var(--gray);
-  border: 5px solid var(--black);
-  border-left-color: transparent;
-  animation: load 2s  linear infinite;
-}
-
 section {
   height: 100vh;
   background: radial-gradient(var(--white),var(--gray));
@@ -323,11 +302,5 @@ header .choose button a {
   to {
     top:0px;
     opacity: 1;
-  }
-}
-
-@keyframes load {
-  to {
-    transform: rotate(360deg);
   }
 }
